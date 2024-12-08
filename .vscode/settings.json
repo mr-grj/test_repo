@@ -1,6 +1,46 @@
 {
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true
-    }
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+        "**/.vscode": false,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+    },
+
+    "git.autofetch": true,
+    "git.confirmSync": false,
+
+    "python.testing.pytestArgs": ["--disable-warnings"],
+
+    "terminal.integrated.scrollback": 10000,
+
+    "search.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+        "**/.vscode": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+    },
+
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoSearchPaths": true,
+
+    "debug.inlineValues": "on",
+
+    "workbench.startupEditor": "none",
+
 }
