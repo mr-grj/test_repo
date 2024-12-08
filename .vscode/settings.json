@@ -23,7 +23,9 @@
     "git.autofetch": true,
     "git.confirmSync": false,
 
-    "python.testing.pytestArgs": ["--disable-warnings"],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
 
     "terminal.integrated.scrollback": 10000,
 
@@ -42,5 +44,7 @@
     "debug.inlineValues": "on",
 
     "workbench.startupEditor": "none",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
 
 }
